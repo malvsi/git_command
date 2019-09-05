@@ -1,1 +1,6 @@
-# .DS_Store
+node_modules
+.git
+.vscode
+.idea
+test.html
+.DS_Store
