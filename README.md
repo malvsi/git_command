@@ -54,6 +54,12 @@ git push origin master
 git rm <filename>
 ```
 
+> 强制移除文件
+> 
+```bash
+git rm -f <filename>
+```
+
 > 移除仓库文件，但在本地保留
 > 
 ```bash
