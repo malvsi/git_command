@@ -42,6 +42,12 @@ git config --global user.name 'your user name'
 git config --global user.name 'useremial@qq.com'
 ```
 
+> 查看git配置信息
+> 
+```bash
+git config --list
+```
+
 ## 分支操作
 > 查看分支，*代表当前分支
 > 
@@ -102,5 +108,18 @@ git remote add origin <url>
 > 修改远程关联仓库（地址）
 > 
 ```bash
-git remote set_url origin <newurl>
+git remote set_url <name> <newurl>
+```
+
+## git clone的操作
+> 克隆远程仓库
+> 
+```bash
+git clone <url>
+```
+
+> 克隆远程仓库并重命名文件夹
+> 
+```bash
+git clone <url> <filename>
 ```
