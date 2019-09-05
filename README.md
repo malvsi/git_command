@@ -8,7 +8,13 @@ git status
 > 添加文件
 > 
 ```bash
-git add [filename]
+git add <filename>
+```
+
+> 删除文件
+> 
+```
+git rm <filename>
 ```
 
 > 添加描述
