@@ -17,6 +17,12 @@ git add <filename>
 git rm <filename>
 ```
 
+> 查看文件哪里被更新
+> 
+```
+git diff
+```
+
 > 添加描述
 > 
 ```bash
