@@ -47,6 +47,13 @@ git push -u origin master
 git push origin master
 ```
 
+## 移除文件
+> 移除文件
+> 
+```bash
+git rm <filename>
+```
+
 ## 基本信息设置
 > 设置用户名
 > 
