@@ -54,6 +54,12 @@ git push origin master
 git rm <filename>
 ```
 
+> 移除仓库文件，但在本地保留
+> 
+```bash
+git rm <filename>
+```
+
 ## 基本信息设置
 > 设置用户名
 > 
