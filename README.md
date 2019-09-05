@@ -45,62 +45,62 @@ git config --global user.name 'useremial@qq.com'
 ## 分支操作
 > 查看分支，*代表当前分支
 > 
-> ```bash
+```bash
 git branch -a
 ```
 
 > 新建分支
 > 
->```bash
+```bash
 git branch [branch name]
 ```
 
 > 切换分支
 > 
->```bash
+```bash
 git checkout [branch name]
 ```
 
 > 删除本地分支
 > 
->```bash
+```bash
 git branch -d [branchname]
 ```
 
 > 删除远程分支
 > 
->```bash
+```bash
 git push origin --delete <branchname>
 ```
 
 > 合并分支
 > 
->```bash
+```bash
 git merge [branch name]
 ```
 
 ## git remote的操作
 > 查看远程关联仓库
 > 
->```bash
+```bash
 git remote -v
 ```
 
 > 删除远程关联仓库
 > 
->```bash
+```bash
 > <name> == origin
 git remote remove <name> 
 ```
 
 > 添加远程关联仓库
 > 
->```bash
+```bash
 git remote add origin <url>
 ```
 
 > 修改远程关联仓库（地址）
 > 
->```bash
+```bash
 git remote set_url origin <newurl>
 ```
