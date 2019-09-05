@@ -11,6 +11,12 @@ git status
 git add <filename>
 ```
 
+> 直接提交文件 [-a]可以跳过 add 添加过程直接提交
+> 
+```
+git commit -a -m '描述信息'
+```
+
 > 删除文件
 > 
 ```
